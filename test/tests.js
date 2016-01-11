@@ -26,7 +26,8 @@
     if (isNode) {
       chai = require('chai');
       expect = chai.expect;
-      page = process.env.PAGE_COV ? require('../index-cov') : require('../index');
+      var getPage = process.env.PAGE_COV ? require('../index-cov') : require('../index');
+      page = getPage();
     } else {
       expect = chai.expect;
     }

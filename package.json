@@ -1,11 +1,11 @@
 {
-  "name": "page",
-  "description": "Tiny client-side router",
+  "name": "isotropy-page",
+  "description": "Fork of Page.js: The tiny client-side router. Reason for fork: have multiple instances of page.",
   "version": "1.6.4",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/page.js.git"
+    "url": "git://github.com/jeswin/page.js.git"
   },
   "component": {
     "scripts": {
